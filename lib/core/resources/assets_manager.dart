@@ -15,4 +15,10 @@ abstract final class AssetsManager {
   static const String hadethRightCorner = "assets/images/hadeth_right_corner.png";
   static const String hadethCardBackground = "assets/images/HadithCardBackGround 1.png";
   static const String hadethMosque = "assets/images/hadeth_mosque.png";
+  static const String quranBackground = "assets/images/quran_background.png";
+  static const String mostRecent = "assets/images/most_recent.png";
+  static const String suraNumber = "assets/images/sura_number.svg";
+  static const String quranLeftCorner = "assets/images/quran_left_corner.png";
+  static const String quranRightCorner = "assets/images/quran_right_corner.png";
+  static const String quranMosque = "assets/images/quran_mosque.png";
 }
