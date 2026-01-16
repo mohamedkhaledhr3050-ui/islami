@@ -10,4 +10,9 @@ abstract final class AssetsManager {
   static const String radioSelectedTab = "assets/images/radio_selected.svg";
   static const String timeTab = "assets/images/time.svg";
   static const String timeSelectedTab = "assets/images/time_selected.svg";
+  static const String hadethBackground = "assets/images/hadeth_background.png";
+  static const String hadethLeftCorner = "assets/images/hadeth_left_corner.png";
+  static const String hadethRightCorner = "assets/images/hadeth_right_corner.png";
+  static const String hadethCardBackground = "assets/images/HadithCardBackGround 1.png";
+  static const String hadethMosque = "assets/images/hadeth_mosque.png";
 }
