@@ -7,13 +7,18 @@ import 'package:islami_app/ui/sura_details/screen/sura_details.dart';
 
 class SuraItem extends StatelessWidget {
   SuraModel suraModel;
+
   SuraItem(this.suraModel, {super.key});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, SuraDetails.routeName, arguments: suraModel);
+        Navigator.pushNamed(
+          context,
+          SuraDetails.routeName,
+          arguments: suraModel,
+        );
       },
       child: Row(
         children: [
@@ -55,11 +60,14 @@ class SuraItem extends StatelessWidget {
               ],
             ),
           ),
-          Text(suraModel.suraNameAr, style: TextStyle(
-            fontWeight: FontWeight.w700,
-            fontSize: 20,
-            color: ColorsManager.onPrimaryColor
-          ),)
+          Text(
+            suraModel.suraNameAr,
+            style: TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 20,
+              color: ColorsManager.onPrimaryColor,
+            ),
+          ),
         ],
       ),
     );
