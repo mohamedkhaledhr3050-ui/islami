@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:islami_app/core/remote/local/prefs_manager.dart';
 import 'package:islami_app/ui/hadeth_details/screen/hadeth_details.dart';
 import 'package:islami_app/ui/home/screen/home_screen.dart';
 import 'package:islami_app/ui/on_boarding/on_boarding_screen.dart';
 import 'package:islami_app/ui/sura_details/screen/sura_details.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await PrefsManager.init();
   runApp(const MyApp());
 }
 
